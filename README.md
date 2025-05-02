@@ -4,8 +4,9 @@ Each provider requires slightly different BGP configurations to announce my ASN 
 
 ## BGP Server Configuration Files
 
-- **server1.frr.conf**: Used by FRR running on Ubuntu 24.02.2
-- **server2.frr.conf**: Used by FRR running on Ubuntu 24.02.2
+- **server1.frr.conf**: Used by FRR running on Ubuntu 24.02.2. Server is announcing same IP address range that it hosts traffic for.
+- **server2.frr.conf**: Used by FRR running on Ubuntu 24.02.2. Server is announcing same IP address range that it hosts traffic for.
+- **server3.frr.conf**: Used by FRR running on Opnsense 25.4. Router is announcing an IP address range that it does not route traffic for.
 
 ## Common Variables (with Examples)
 
