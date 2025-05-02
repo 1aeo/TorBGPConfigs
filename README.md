@@ -5,6 +5,7 @@ Each provider requires slightly different BGP configurations to announce my ASN 
 ## BGP Server Configuration Files
 
 - **server1.frr.conf**: Used by FRR running on Ubuntu 24.02.2
+- **server2.frr.conf**: Used by FRR running on Ubuntu 24.02.2
 
 ## Common Variables (with Examples)
 
